@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>enrollment form</title>
+</head>
+
+<body>
+    <form action="abc.php">
+        <b><u><big><big>Enrollment Form</big></big></u></b>
+        <br><br>
+        <table cellpadding="5">
+            <tr>
+                <td><b><label for="name">Student's Name :</label></b></td>
+                <td><input type="text" placeholder="Enter Name" id="name" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td><b>Father's Name :</b> </td>
+                <td><input type="text" placeholder="Enter Father's Name" maxlength="30" required></td>
+            </tr>
+            <tr>
+                <td><b>Gender :</b></td>
+                <td><input type="radio" name="gender">Male 
+                    <input type="radio" name="gender">Female 
+                    <input type="radio" name="gender">Transgender</td>
+            </tr>
+            <tr>
+                <td><b>DOB :</b></td>
+                <td><input type="date"></td>
+            </tr>
+            <tr>
+                <td><b>Select Standard :</b> </td>
+                <td><select required>
+                        <option>Select Standard</option>
+                        <option> 3 Standard</option>
+                        <option> 4 Standard</option>
+                        <option> 5 Standard</option>
+                        <option> 6 Standard</option>
+                        <option> 7 Standard</option>
+                        <option> 8 Standard </option>
+                        <option> High School</option>
+                        <option> Intermediate</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><b>Address :</b></td>
+                <td><textarea rows="10" cols="20" maxlength="100"></textarea></td>
+            </tr>
+            <tr>
+                <td><b>Interests :</b></td>
+                <td><input type="checkbox">Dancing<br>
+                    <input type="checkbox">Singing<br>
+                    <input type="checkbox">Instruments<br>
+                    <input type="checkbox">Sports</td>
+            </tr>
+            <tr>
+                <td><b>Previous School :</b></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><b>Previous Class Percentage :</b></td>
+                <td><input type="number" min="0" max="100"></td>
+            </tr>
+            <tr>
+                <td><b>email :</b></td>
+                <td><input type="email" placeholder="Enter email"></td>
+            </tr>
+            <tr>
+                <td><input type="reset"> <input type="submit"></td>
+            </tr>
+         </table>
+    </form>
+</body>
+
+</html>
